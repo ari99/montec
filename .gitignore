@@ -1,0 +1,6 @@
+data.zip
+target/
+src/main/resources/data/*
+.settings/
+.classpath
+.project
