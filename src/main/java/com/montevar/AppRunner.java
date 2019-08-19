@@ -16,8 +16,8 @@ public class AppRunner {
 	public static void main(String[] args) {
 
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-		AppRunner app = context.getBean(AppRunner.class);
-		app.run();
+		AppRunner appRunner = context.getBean(AppRunner.class);
+		appRunner.run();
 
 		context.close();
 	}
